@@ -1,0 +1,392 @@
+/* * {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+.navigation__section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40vh;
+  width: 100%;
+  padding: 40px;
+  background-color: blanchedalmond;
+
+  background-position: center;
+  background-size: cover;
+  z-index: 999;
+  background: rgba(205, 160, 215, 0.3);
+}
+
+nav {
+  background-color: #cda0d7;
+  margin-top: 0px;
+  z-index: 9999;
+}
+
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: orange;
+}
+.big-seven {
+  font-size: 2em;
+}
+
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px;
+}
+
+.nav__items {
+  display: flex;
+  margin: 20px;
+  color: orange;
+}
+
+.nav__links {
+  list-style-type: none;
+}
+
+#nav__menu {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  list-style: none;
+  color: orange;
+  margin: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.sign-up-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none;
+  padding: 10px;
+  width: 80px;
+  color: #000;
+  font-weight: 700;
+  background: #fff;
+  border-radius: 6px;
+  transition: all 0.35s ease-in-out;
+}
+
+#nav__menu:hover {
+  color: red;
+  transition: all 0.3s ease-in-out;
+}
+
+.sign-up-btn:hover {
+  background-color: red;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+.first__section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  width: 100%;
+}
+.first__section img{
+  display: flex;
+  width: 60%;
+  height: 10vh;
+}
+.image-placeholder {
+  display: flex;
+  width: 100%;
+}
+
+.wrapper h1 {
+  font-size: 2rem;
+  color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .carousel-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin: 20px;
+  padding: 20px;
+} 
+
+#gift__packs {
+  box-shadow: 2px 1px 6px 0.5px rgba(0, 0, 0, 0.2);
+}
+
+.search-btn {
+  width: 10%;
+  height: 40px;
+  text-align: center;
+  background-color: red;
+  border: 1px solid red;
+  color: #fff;
+  font-weight: 600;
+}
+
+
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #cda0d7e6;
+}
+
+
+.card__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.card__and__prices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px 0;
+  background-color: #eff;
+  width: 95%;
+  box-shadow: 1px 1px 1px 0.5px rgba(0, 0, 0, 0.1);
+}
+
+.card__and__prices img {
+  width: 200px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  box-shadow: 0.1px 0.1px 0.1px 0.1px rgba(0, 0, 0, 0.2);
+}
+
+.card__and__prices span {
+  color: green;
+  font-weight: 500;
+  display: flex;
+  align-items: left;
+  margin-left: 10px;
+  font-size: 0.8em;
+}
+.card__and__prices span .crossed {
+  color: gray;
+  font-weight: 500;
+  display: flex;
+  align-items: left;
+  margin-left: 10px;
+  font-size: 0.8em;
+  text-decoration: line-through;
+  margin-right: 5px;
+}
+
+.card__and__prices p {
+  text-align: left;
+  margin: 0 10px;
+  font-size: 0.5em;
+}
+
+.section__three {
+  height: 150px;
+  width: 100%;
+  background: url(/images/gift\\(2\).jpg);
+  background-position: center;
+  background-size: contain;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+}
+
+.footer__sections {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+}
+.footer-section-one {
+  width: 100%;
+  font-size: 14px;
+  text-align: left;
+  padding: 10px;
+}
+.footer-section-one h2 {
+  color: red;
+  display: flex;
+  justify-content: left;
+  margin: 10px 20px;
+}
+.footer-section-two {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+}
+.footer-section-two h2 {
+  color: red;
+  display: flex;
+  justify-content: left;
+  margin: 10px 20px;
+}
+
+.footer-section-two li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #fff;
+}
+.footer-section-two li a:hover {
+  color: rgb(26, 4, 4);
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-partners {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+
+  width: 100%;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.footer-partners h2 {
+  margin-bottom: 20px;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.partners_wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.partners-cards {
+  height: 40px;
+  width: 80px;
+  background: #292828;
+  gap: 2px;
+  margin: 2px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 6px;
+}
+.partners-cards {
+  margin-left: 80px;
+}
+
+.partners-cards:hover {
+  background: rgb(26, 4, 4);
+}
+
+.footer-section-three {
+  width: 100%;
+  font-size: 14px;
+  text-align: left;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-section-three h2 {
+  margin-bottom: 20px;
+  color: red;
+  font-size: 1.5em;
+}
+h2 {
+  margin: 0 30px;
+
+  font-size: 1em;
+  font-weight: 600;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.d-flex input::placeholder {
+  color: gray;
+  font-size: 10px;
+  letter-spacing: 10px;
+}
+
+.btn {
+  background: orange;
+  outline: orange;
+  color: #fff;
+  border: orange;
+}
+.btn:hover {
+  background: #fff;
+  border: 2px solid orange;
+  color: orange;
+}
+
+.subscribe-form #submit {
+  background: red;
+  color: #ffe;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  width: 100px;
+  font-weight: 500;
+}
+
+.subscribe-form input {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  justify-content: center;
+  text-align: center;
+}
+
+.form-class-two {
+  width: 100%;
+} */
+
+
+

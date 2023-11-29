@@ -1,0 +1,63 @@
+body {
+  background: #800080af;
+  background-position: center;
+  background-size: cover;
+  font-family: "poppins", sans-serif;
+}
+#container {
+  color: #fff;
+  background: #8000804f;
+}
+
+.login-btn {
+  background: #fff;
+  outline: none;
+  border: 2px solid #fff;
+  color: #ffbf00;
+}
+.Signin-with-Google {
+  color: #ffbf00;
+}
+.Signin-with-Google:hover {
+  border: 2px solid #ffbf00;
+  color: #800080af;
+}
+
+.login-btn:hover {
+  transition: right 0.3s ease-in-out 250ms;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.box-area {
+  width: 930px;
+}
+
+.right-box {
+  padding: 40px 30px 40px 40px;
+}
+
+::placeholder {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.forgot-password a,
+.mb-4 a {
+  color: #ffbf00;
+}
+
+
+@media only screen and (max-width: 760px) {
+  .box-area {
+    margin: 0 10px;
+  }
+  .left-box {
+    height: 250px;
+    overflow: hidden;
+  }
+
+  .right-box {
+    padding: 20px;
+  }
+}

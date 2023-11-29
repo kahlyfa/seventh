@@ -1,0 +1,159 @@
+* {
+  font-family: "poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #800080af;
+}
+.carousel__container img {
+  width: 1300px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #800080af;
+}
+
+.carousel__container {
+  background-color: #800080af;
+}
+
+.btn-sm:hover {
+  background: #fff;
+  border: 2px solid #ffbf00;
+}
+.btn a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+.btn a:hover {
+  text-decoration: none;
+  color: #800080af;
+}
+
+.form-btn {
+  background: #ffbf00;
+  width: 80px;
+  height: 40px;
+}
+
+.footer__section {
+  background: #000;
+  font: #fff;
+}
+
+nav {
+  background-color: #800080af;
+  color: #fff;
+}
+
+.header-logo {
+  font-size: 5rem;
+  color: #fff;
+  font-weight: 900;
+}
+
+.nav-link,
+.nav-item {
+  color: #fff;
+}
+
+.nav-item a {
+  color: #fff;
+  font-size: 1.2em;
+}
+.nav-item a:hover {
+  color: #ffbf00;
+}
+
+.hero__section {
+  background-color: #800080af;
+}
+
+.premium-btn {
+  background-color: #ffbf00;
+  border: none;
+  width: 160px;
+  padding: 20px;
+  height: 60px;
+  margin-left: 40px;
+  color: #fff;
+}
+h1 {
+  color: #fff;
+}
+.premium-btn:hover {
+  background-color: #fff;
+  border: 2px solid #ffbf00;
+  color: #800080af;
+}
+
+.card-body {
+  background-color: #b666d2;
+  color: #000;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  border-end-end-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.btn-group button {
+  background-color: #fdb515;
+  color: #e6e6fa;
+  border-right: 2px;
+  font-weight: 500;
+  padding: 8px;
+}
+
+.btn-group button:hover {
+  background: linear-gradient(to top, #ffbf00, #cc9900);
+}
+
+.second__section {
+  border: none;
+  outline: none;
+  background-color: #800080af;
+}
+
+.container .card img {
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+h3 {
+  color: #ffbf00;
+}
+.get-started {
+  background: #ffbf00;
+  font-weight: bold;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.get-started:hover {
+  background: #ffbf00;
+  border: 2px solid #ffbf00;
+  color: #fff;
+}
+
+footer li:hover {
+  color: #ffbf00;
+}
+
+footer i:hover {
+  color: #ffbf00;
+}
+
+.subscribe-btn {
+  background: #ffbf00;
+  color: #fff;
+  width: 100%;
+  border: 2px solid #fff;
+}
+
+.subscribe-btn:hover {
+  background: #ffbf00;
+  border: 2px solid #ffbf00;
+}

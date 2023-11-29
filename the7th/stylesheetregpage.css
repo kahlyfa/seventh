@@ -1,0 +1,27 @@
+body {
+  background-color: #800080af;
+  color: #fff;
+}
+
+.container {
+  color: #fff;
+  background: #8000804f;
+  border-radius: 8px;
+}
+.btn {
+  background: #ffbf00;
+  outline: none;
+  border: 2px solid #ffbf00;
+  color: #fff;
+}
+.btn:hover {
+  background: #fff;
+  border: 2px solid #ffbf00;
+  color: #8000804f;
+}
+::placeholder{
+  color: #ffbf00;
+}
+a{
+  color: #ffbf00;
+}
